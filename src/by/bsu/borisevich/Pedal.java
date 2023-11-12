@@ -10,4 +10,12 @@ public class Pedal implements isPressed{
     public void pushPedal(){
         System.out.println("You've pushed" + pedalSide +" pedal");
     }
+
+    public String getPedalSide() {
+        return pedalSide;
+    }
+
+    public void setPedalSide(String pedalSide) {
+        this.pedalSide = pedalSide;
+    }
 }
